@@ -1,5 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client"; // Import createRoot
+import "./styles.css"
 
 function CustomPage() {
   return (
@@ -28,8 +29,8 @@ function Header() {
 
 function Footer() {
   return (
-    <footer>
-      <small>© 2024 Louder development. All rights reserved.</small>
+    <footer classname="footer">
+      <medium>© 2024 Louder development. All rights reserved.</medium>
     </footer>
   );
 }
